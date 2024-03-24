@@ -16,7 +16,11 @@ export default {
         '2xl': '1400px'
       },
     },
-    extend: {},
+    extend: {
+      boxShadow: {
+        '3xl': 'inset 0 0 5px 15px #fff',
+      }
+    },
   },
   plugins: [],
 }
